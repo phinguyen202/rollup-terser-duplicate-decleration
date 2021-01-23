@@ -1,9 +1,7 @@
+import { CoordinateModel } from '@model/common.model';
 import React, { FunctionComponent } from 'react';
 
-interface Props {
-    x?: number;
-    y?: number;
- }
+interface Props extends CoordinateModel { }
 
 const width: number = 22.22; 
 const height: number = 65;
